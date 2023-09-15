@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    /* colors */
+    --borderColor: rgb(225, 228, 230);
+    --gray: #31383d;
+    --green: #24b353;
+    --lightBlue: #f7fafc;
+    --lightBlueSecond: #e9f7ff;
+    --lightBlueThird: #77b6e6;
+    --ligthGray: #6b737a;
+    --mainBlue: #1f509e;
+    --secondBlue: #3466b8;
+    --thirdBlue: #2156ac;
+    --white: #fff;
+
+    /* border radius */
+    --borderRadius: 32px;
+
+    /* padding set */
+    --padding: 40px 28px;
+
+    /* font sizes */
+    --little: 0.8rem;
+    --littlePlus: 1.2rem;
+    --characteristics: 1.6rem;
+    --characteristicsPlus: 2rem;
+    --description: 2.4rem;
+    --descriptionPlus: 2.8rem;
+    --title: 3.6rem;
+    --titlePlus: 4.4rem;
+
+    /* font weigths */
+    --bold: 600;
+    --heavy: 800;
+    --light: 300;
+    --normal: 400;
+    --regular: 500;
+
+    /* font family */
+    --inter: "Inter", sans-serif;
+    --nexa: "Nexa", sans-serif;
+}
+
+.mainInfo {
+    margin-bottom: 120px;
+    height: 340px;
+}
+
+.mainInfo--title {
+    font-size: var(--descriptionPlus);
+    line-height: 3.8rem;
+}
+
+.mainInfo--description {
+    margin-top: 40px;
+}
+
+.services--title {
+    text-align: center;
+    font-size: var(--descriptionPlus);
+    margin-bottom: -60px;
+}
+
+.testimonialVidBox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.testimonialVid {
+    border-radius: 40px;
+    width: 100%;
+}
+
+.services--wrap {
+    margin-bottom: -100px;
+}
+
+.services--titleN {
+    font-family: var(--nexa);
+    font-size: var(--titlePlus);
+    font-weight: var(--heavy);
+}
+
+.services--wrap__des {
+    font-family: var(--inter);
+    font-size: var(--description);
+    font-weight: var(--regular);
+}
+
+.testimonial {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 481px) {
+    .mainInfo {
+        margin-bottom: 260px;
+        height: 440px;
+    }
+
+    .mainInfo--title {
+        font-size: var(--titlePlus);
+        line-height: 5rem;
+    }
+
+    .services--wrap__des {
+        font-size: var(--title);
+        margin-left: -40px;
+    }
+}
+
+@media (min-width: 880px) {
+    .mainInfo {
+        margin-bottom: 440px;
+    }
+
+    .services--title {
+        text-align: center;
+        font-size: var(--titlePlus);
+        margin-bottom: -20px;
+    }
+
+    .services--wrap__des {
+        font-size: var(--title);
+        margin-left: -120px;
+    }
+
+    .services--wrap {
+        margin-bottom: -60px;
+    }
+}

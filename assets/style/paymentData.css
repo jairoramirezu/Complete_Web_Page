@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    /* colors */
+    --borderColor: rgb(225, 228, 230);
+    --gray: #31383d;
+    --green: #24b353;
+    --lightBlue: #f7fafc;
+    --lightBlueSecond: #e9f7ff;
+    --lightBlueThird: #77b6e6;
+    --ligthGray: #6b737a;
+    --mainBlue: #1f509e;
+    --secondBlue: #3466b8;
+    --thirdBlue: #2156ac;
+    --white: #fff;
+
+    /* border radius */
+    --borderRadius: 32px;
+
+    /* padding set */
+    --padding: 40px 28px;
+
+    /* font sizes */
+    --little: 0.8rem;
+    --littlePlus: 1.2rem;
+    --characteristics: 1.6rem;
+    --characteristicsPlus: 2rem;
+    --description: 2.4rem;
+    --descriptionPlus: 2.8rem;
+    --title: 3.6rem;
+    --titlePlus: 4.4rem;
+
+    /* font weigths */
+    --bold: 600;
+    --heavy: 800;
+    --light: 300;
+    --normal: 400;
+    --regular: 500;
+
+    /* font family */
+    --inter: "Inter", sans-serif;
+    --nexa: "Nexa", sans-serif;
+}
+
+.mainInfo {
+    background-color: var(--lightBlue);
+    border-radius: var(--borderRadius);
+    height: fit-content;
+    margin-bottom: 60px;
+    padding: 60px 28px;
+}
+
+.mainInfo--B_form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 40px auto;
+}
+
+::placeholder {
+    color: var(--ligthGray);
+    font-family: var(--inter);
+    font-size: var(--characteristics);
+    font-weight: var(--normal);
+    text-align: center;
+}
+
+#B_name,
+#B_cellphone_code,
+#B_cellphone,
+#B_email,
+#B_numberP,
+#payment,
+#payNumber,
+#email_afiliado,
+#zelle_afiliado {
+    background-color: var(--white);
+    border-radius: 5px;
+    border: none;
+    color: var(--gray);
+    font-family: var(--inter);
+    font-size: var(--characteristics);
+    font-weight: var(--bold);
+    height: 68px;
+    margin: 8px;
+    padding: 8px;
+    width: 150px;
+}
+
+/* #B_numberP, .numberP--title {
+    display: none;
+} */
+
+#payNumber {
+    margin-top: -12px;
+    text-align: center;
+    width: 80%;
+}
+
+#B_email {
+    width: 100%;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    margin-top: 36px;
+}
+
+.label {
+    color: var(--ligthGray);
+    font-family: var(--inter);
+    font-size: var(--characteristics);
+    font-weight: var(--normal);
+    margin-left: 12px;
+}
+
+.flxC {
+    display: flex;
+    flex-direction: column;
+}
+
+#B_numberP {
+    text-align: center;
+    width: 28%;
+}
+
+.Numberof_P {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 24px;
+}
+
+.payNumber--title {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--description);
+    font-weight: var(--bold);
+    line-height: 2.8rem;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.payNumber {
+    align-items: center;
+    display: none;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.zelleConf {
+    color: red;
+    font-size: var(--characteristicsPlus);
+    margin: 0;
+    text-align: center;
+}
+
+.actionB {
+    background-color: var(--mainBlue);
+    border-radius: var(--borderRadius);
+    border: none;
+    color: var(--white);
+    font-size: var(--);
+    font-weight: var(--bold);
+    margin: 40px auto 0px;
+    padding: 20px;
+    width: 90%;
+}
+
+.buttonA {
+    color: var(--white);
+    cursor: pointer;
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--bold);
+    text-align: center;
+    text-decoration: none;
+}
+
+.bigN {
+    color: var(--mainBlue);
+    font-family: var(--nexa);
+    font-size: var(--titlePlus);
+    font-weight: var(--bold);
+    margin: 20px auto 16px;
+}
+
+.zelleData {
+    color: var(--mainBlue);
+    margin-top: 48px;
+}
+
+.zelleMail,
+.zelleData,
+.zelleName {
+    font-size: var(--characteristicsPlus);
+    line-height: 1rem;
+}
+
+.divHelpOver,
+.helpOver {
+    margin: 0px;
+}
+
+@media (min-width: 880px) {
+    .mainInfo {
+        margin: 80px 200px;
+    }
+    .actionB {
+        width: 40%;
+    }
+    #B_email {
+        width: 78%;
+    }
+}

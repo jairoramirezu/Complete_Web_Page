@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    /* colors */
+    --borderColor: rgb(225, 228, 230);
+    --gray: #31383d;
+    --green: #24b353;
+    --lightBlue: #f7fafc;
+    --lightBlueSecond: #e9f7ff;
+    --lightBlueThird: #77b6e6;
+    --ligthGray: #6b737a;
+    --mainBlue: #1f509e;
+    --secondBlue: #3466b8;
+    --thirdBlue: #2156ac;
+    --white: #fff;
+
+    /* border radius */
+    --borderRadius: 32px;
+
+    /* padding set */
+    --padding: 40px 28px;
+
+    /* font sizes */
+    --little: 0.8rem;
+    --littlePlus: 1.2rem;
+    --characteristics: 1.6rem;
+    --characteristicsPlus: 2rem;
+    --description: 2.4rem;
+    --descriptionPlus: 2.8rem;
+    --title: 3.6rem;
+    --titlePlus: 4.4rem;
+
+    /* font weigths */
+    --bold: 600;
+    --heavy: 800;
+    --light: 300;
+    --normal: 400;
+    --regular: 500;
+
+    /* font family */
+    --inter: "Inter", sans-serif;
+    --nexa: "Nexa", sans-serif;
+}
+
+.mainInfo {
+    background-color: var(--lightBlueSecond);
+    border-radius: var(--borderRadius);
+    height: fit-content;
+    margin-bottom: 40px;
+    padding: 48px 28px 10px;
+}
+
+.mainInfo--title {
+    text-align: center;
+}
+
+.mainInfo--B_form {
+    display: flex;
+    flex-direction: column;
+    margin: 12px auto 40px auto;
+}
+
+.B_number {
+    font-size: var(--description);
+    font-weight: var(--heavy);
+    margin-bottom: 0px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+::placeholder {
+    color: var(--ligthGray);
+    font-family: var(--inter);
+    font-size: var(--characteristics);
+    font-weight: var(--normal);
+}
+
+#B_name,
+#B_cellphone_code,
+#B_cellphone,
+#B_email,
+#B_numberP,
+#payment,
+#payNumber,
+.B_postAddress,
+.B_postAddress--Zip,
+.B_personalAddress,
+.B_personalAddress--Zip,
+.place {
+    background-color: var(--white);
+    border-radius: 8px;
+    border: none;
+    color: var(--gray);
+    font-family: var(--inter);
+    font-size: var(--characteristics);
+    font-weight: var(--bold);
+    height: 68px;
+    margin: 8px;
+    padding: 8px;
+    width: 90%;
+}
+
+.dn {
+    display: none;
+}
+
+#B_email,
+.B_postAddress,
+.B_personalAddress,
+.place {
+    width: 100%;
+}
+
+.B_personalAddress--Zip,
+.B_postAddress--Zip {
+    width: 28%;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.space-top {
+    margin-bottom: 0px;
+    margin-top: 32px;
+}
+
+.space-topBottom {
+    margin-bottom: 12px;
+    margin-top: 40px;
+}
+
+.info {
+    font-size: var(--characteristicsPlus);
+    text-align: center;
+}
+
+.dataC {
+    font-size: var(--characteristics);
+    margin: 16px auto 8px auto;
+    text-align: center;
+}
+
+.dataCW {
+    font-size: var(--characteristics);
+    margin: 4px auto 8px auto;
+    text-align: center;
+}
+
+.dataCWI {
+    display: flex;
+    font-size: var(--characteristics);
+    padding: 0px 24px 20px;
+    text-align: start;
+}
+
+.blue {
+    color: var(--secondBlue);
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.blueA {
+    color: var(--lightBlueThird);
+}
+
+.P_title {
+    color: var(--mainBlue);
+    font-family: var(--nexa);
+    font-size: var(--descriptionPlus);
+    font-weight: var(--heavy);
+    margin-bottom: 0px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.label {
+    color: var(--ligthGray);
+    font-family: var(--inter);
+    font-size: var(--characteristics);
+    font-weight: var(--normal);
+    margin-left: 12px;
+}
+
+.flxC {
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom {
+    margin-bottom: 12px;
+}
+
+.centerC {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blueLink {
+    color: var(--secondBlue);
+    font-size: var(--descriptionPlus);
+    font-family: var(--nexa);
+}
+
+.buttonPlusForm,
+.buttonMinusForm {
+    cursor: pointer;
+    display: none;
+    margin-bottom: 20px;
+    margin: 16px;
+    width: 80px;
+}
+
+.insideOut {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mainButton {
+    align-items: center;
+    background-color: var(--mainBlue);
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    display: none;
+    height: 52px;
+    justify-content: center;
+    margin-top: 28px;
+    width: 40%;
+}
+
+.mainButtonPlanTitle {
+    color: var(--white);
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--bold);
+    text-align: center;
+}
+
+.disclaimer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding);
+}
+
+.postDiv {
+    padding: var(--padding);
+}
+
+.post-summary {
+    font-size: var(--characteristicsPlus);
+    margin-bottom: 16px;
+}
+
+.incomeFiles {
+    background-color: var(--mainBlue);
+    border-radius: var(--borderRadius);
+    color: white;
+    cursor: pointer;
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--regular);
+    height: 52px;
+    margin-top: 28px;
+    margin: 12px auto auto auto;
+    text-align: center;
+    width: 40%;
+}
+
+.incomeFile {
+    display: none;
+}
+
+.minusBar,
+.plusBar {
+    margin: 8px auto;
+    padding: 0px;
+    width: 68px;
+}
+
+.copatroData {
+    display: none;
+}
+
+.patroRESresp {
+    display: none;
+}
+
+.evidenciaRes {
+    color: var(--secondBlue);
+    display: none;
+    font-family: var(--nexa);
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--heavy);
+    margin-top: 24px;
+}
+
+.uploadEviSpinner {
+    display: none;
+    margin: 24px auto auto;
+    width: 60px;
+}
+
+.dependentStyle {
+    background-color: var(--lightBlue);
+    border-radius: var(--borderRadius);
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.haveJobRes {
+    display: none;
+}
+
+.ssnValidationDisplay,
+.parentsData,
+.i94Validation {
+    display: none;
+}
+
+.checkboxDiv,
+.terms {
+    display: none;
+}
+
+@media (min-width: 880px) {
+    .mainInfo {
+        margin: auto 200px;
+    }
+}

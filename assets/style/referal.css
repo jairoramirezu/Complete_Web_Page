@@ -1,0 +1,22 @@
+.flxC {
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    margin-top: 28px;
+    text-align: center;
+}
+
+.marginTop {
+    margin-top: -16px;
+}
+
+#email_afiliado,
+#zelle_afiliado {
+    width: 90%;
+}
+
+.mainInfo--title {
+    color: inherit;
+}

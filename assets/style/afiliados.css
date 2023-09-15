@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    /* colors */
+    --borderColor: rgb(225, 228, 230);
+    --gray: #31383d;
+    --green: #24b353;
+    --lightBlue: #f7fafc;
+    --lightBlueSecond: #e9f7ff;
+    --lightBlueThird: #77b6e6;
+    --ligthGray: #6b737a;
+    --mainBlue: #1f509e;
+    --secondBlue: #3466b8;
+    --thirdBlue: #2156ac;
+    --white: #fff;
+
+    /* border radius */
+    --borderRadius: 32px;
+
+    /* padding set */
+    --padding: 40px 28px;
+
+    /* font sizes */
+    --little: 0.8rem;
+    --littlePlus: 1.2rem;
+    --characteristics: 1.6rem;
+    --characteristicsPlus: 2rem;
+    --description: 2.4rem;
+    --descriptionPlus: 2.8rem;
+    --title: 3.6rem;
+    --titlePlus: 4.4rem;
+
+    /* font weigths */
+    --bold: 600;
+    --heavy: 800;
+    --light: 300;
+    --normal: 400;
+    --regular: 500;
+
+    /* font family */
+    --inter: "Inter", sans-serif;
+    --nexa: "Nexa", sans-serif;
+}
+
+.mainInfo--title {
+    text-align: center;
+}
+
+.mainInfo--war {
+    font-size: var(--descriptionPlus);
+    font-weight: var(--heavy);
+    text-align: center;
+}
+
+.afiDes,
+.spanTitle {
+    font-family: var(--inter);
+    font-size: var(--characteristicsPlus);
+}
+
+.spanTitle {
+    font-weight: var(--bold);
+}
+
+.afiDeLink,
+.afiLink,
+b {
+    color: inherit;
+    font-family: var(--inter);
+    font-size: var(--characteristicsPlus);
+}
+
+.afiBox {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+}
+
+.afiLink {
+    color: var(--white);
+    font-family: inherit;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.linkAfi,
+.linkDown {
+    background-color: var(--mainBlue);
+    border-radius: var(--borderRadius);
+    font-family: inherit;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.faqCard--title,
+.noCoincidence {
+    padding: 28px;
+    text-align: center;
+}
+
+.noCoincidence {
+    display: none;
+}

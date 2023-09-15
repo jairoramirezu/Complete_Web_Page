@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    /* colors */
+    --borderColor: rgb(225, 228, 230);
+    --gray: #31383d;
+    --green: #24b353;
+    --lightBlue: #f7fafc;
+    --lightBlueSecond: #e9f7ff;
+    --lightBlueThird: #77b6e6;
+    --ligthGray: #6b737a;
+    --mainBlue: #1f509e;
+    --secondBlue: #3466b8;
+    --thirdBlue: #2156ac;
+    --white: #fff;
+
+    /* border radius */
+    --borderRadius: 32px;
+
+    /* padding set */
+    --padding: 40px 28px;
+
+    /* font sizes */
+    --little: 0.8rem;
+    --littlePlus: 1.2rem;
+    --characteristics: 1.6rem;
+    --characteristicsPlus: 2rem;
+    --description: 2.4rem;
+    --descriptionPlus: 2.8rem;
+    --title: 3.6rem;
+    --titlePlus: 4.4rem;
+
+    /* font weigths */
+    --bold: 600;
+    --heavy: 800;
+    --light: 300;
+    --normal: 400;
+    --regular: 500;
+
+    /* font family */
+    --inter: "Inter", sans-serif;
+    --nexa: "Nexa", sans-serif;
+}
+
+.mainInfo {
+    background-color: var(--lightBlue);
+    height: 500px;
+}
+
+.mainInfo--title {
+    text-align: center;
+}
+
+.mainInfo--description {
+    margin-top: 28px;
+}
+
+.mainInfo--description__title,
+.mainInfo--description__sub {
+    font-size: var(--description);
+    font-weight: var(--normal);
+    margin-bottom: -8px;
+    text-align: center;
+}
+
+.mainInfo--description__sub {
+    color: var(--secondBlue);
+}
+
+.planCard {
+    align-items: start;
+    background-color: var(--white);
+    border-color: var(--borderColor);
+    border-radius: var(--borderRadius);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 28px;
+}
+
+.centerCard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planCard--title {
+    font-family: var(--nexa);
+    font-size: var(--title);
+    font-weight: var(--heavy);
+    line-height: 3.4rem;
+    margin: 28px auto 8px auto;
+}
+
+.planCard--des {
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--regular);
+    margin-top: 8px;
+}
+
+.planCardPrice {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.planCardPrice--title {
+    font-family: var(--nexa);
+    font-size: var(--titlePlus);
+    font-weight: var(--bold);
+    margin: 0px;
+}
+
+.planCardPrice--des {
+    color: var(--ligthGray);
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--regular);
+    margin: 8px;
+}
+
+.buttonPlan,
+.buttonConvertion {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonPlan {
+    background-color: var(--mainBlue);
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    height: 52px;
+    margin-bottom: 16px;
+    margin-top: 28px;
+    width: 90%;
+}
+
+.buttonPlanTitle {
+    color: var(--white);
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--bold);
+    text-align: center;
+}
+
+.parolCard {
+    margin: -80px 40px auto 40px;
+}
+
+.expressCard {
+    margin: 40px 40px auto 40px;
+}
+
+.planCardAlt {
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--regular);
+    margin-top: 28px;
+    text-align: start;
+    width: 100%;
+}
+
+.planCardChar--wrap {
+    align-items: start;
+    display: flex;
+}
+
+.starPlan {
+    display: block;
+    margin-top: -48px;
+}
+
+.starPlan--wrap {
+    align-items: center;
+    background-color: var(--green);
+    border-radius: 20px;
+    display: flex;
+    height: 34px;
+    justify-content: center;
+    width: 120%;
+}
+
+.starPlan--img {
+    margin-right: 4px;
+    width: 20px;
+}
+
+.starPlan--title {
+    color: var(--white);
+    font-size: var(--littlePlus);
+    text-align: center;
+}
+
+.guaranteeCard {
+    background-color: var(--lightBlueSecond);
+    border-radius: var(--borderRadius);
+    margin-top: 60px;
+}
+
+.guaranteeCard--title {
+    font-family: var(--nexa);
+    font-size: var(--titlePlus);
+    font-weight: var(--heavy);
+    line-height: 4.8rem;
+    margin-bottom: 0px;
+    padding: 40px 28px 0px 28px;
+}
+
+.guaranteeCard--sub {
+    font-size: var(--description);
+    font-weight: var(--bold);
+    margin-bottom: 30px;
+    padding: 0px 28px 0px 28px;
+}
+
+.guaranteeCard--des {
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--regular);
+    line-height: 24px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding: 0px 28px 0px 28px;
+}
+
+.guaranteeCard--img {
+    border-radius: 0px 0px 0px 32px;
+    display: block;
+    max-width: 100%;
+}
+
+.faq {
+    background-color: var(--lightBlue);
+    border-radius: var(--borderRadius);
+    margin: 80px auto 80px auto;
+    padding: 40px 28px;
+}
+
+.faqCard--title,
+.noCoincidence {
+    font-family: var(--nexa);
+    font-size: var(--titlePlus);
+    font-weight: var(--heavy);
+    line-height: 5rem;
+    margin-bottom: 80px;
+}
+
+.faqCard--name {
+    font-family: var(--nexa);
+    font-size: var(--description);
+    font-weight: var(--heavy);
+    line-height: 3.2rem;
+    margin-bottom: 8px;
+}
+
+.faqCard--des {
+    font-size: var(--characteristicsPlus);
+    font-weight: var(--normal);
+    line-height: 28px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
+
+b {
+    font-size: var(--characteristicsPlus);
+}
+
+.topMin {
+    margin-top: 0px;
+}
+
+.bottom {
+    margin-bottom: 0px;
+}
+
+.faq--knowMore {
+    color: var(--ligthGray);
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.faq--knowMore_a {
+    color: var(--ligthGray);
+    font-size: var(--characteristics);
+    font-weight: var(--regular);
+}
+
+.faqCardSum {
+    font-size: var(--characteristics);
+    margin-bottom: 24px;
+}
+
+.marginButtonFAQ {
+    margin-bottom: 16px;
+}
+
+.buscarBar {
+    border-radius: 8px;
+    border: solid 1px lightgray;
+    display: block;
+    font-family: inherit;
+    font-size: var(--description);
+    height: 6rem;
+    margin: -40px auto 60px;
+    padding: 20px;
+    width: 90%;
+}
+
+::placeholder {
+    color: var(--ligthGray);
+    font-family: var(--inter);
+    font-size: var(--description);
+    font-weight: var(--normal);
+}
+
+@media (min-width: 481px) {
+    .parolCard {
+        margin-top: -200px;
+    }
+}
+
+@media (min-width: 880px) {
+    .mainInfo {
+        height: 380px;
+    }
+    .parolCard,
+    .expressCard {
+        margin-top: -140px;
+        width: 400px;
+    }
+    .center {
+        justify-content: center;
+    }
+    .marginTop {
+        margin-top: 12px;
+    }
+    .guarantee {
+        margin: 80px 200px;
+    }
+}
